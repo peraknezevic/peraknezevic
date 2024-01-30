@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Marijana Čanak website",
+    "description": "Official website for Serbian writer Marijana Čanak",
+    "url": "https://marijanacanak.com",
+    "stack": [
+      "Next.js",
+      "React",
+      "Next Auth",
+      "Tailwind CSS",
+      "Prisma",
+      "MongoDB",
+      "axios",
+      "zod"
+    ]
+  },
+  {
+    "title": "Bojan Krivokapić website",
+    "description": "Official website for Serbian writer Bojan Krivokapić",
+    "url": "https://marijanacanak.com",
+    "stack": ["Wordpress", "HTML", "CSS"]
+  }
+]
