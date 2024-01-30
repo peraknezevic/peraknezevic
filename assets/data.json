@@ -2,10 +2,12 @@
   "projects": [
     {
       "id": "1",
-      "title": "Marijana Čanak website",
-      "description": "Official website for Serbian writer Marijana Čanak",
-      "image": "",
-      "url": "https://marijanacanak.com",
+      "title": "Houseplants",
+      "type": "Website",
+      "description": "Online guide for houseplant genera, plant care etc.",
+      "image": "/portfolio/houseplants.jpg",
+      "url": "https://houseplants.xyz",
+      "github": "https://github.com/peraknezevic/houseplants-v2",
       "stack": [
         "Next.js",
         "React",
@@ -19,10 +21,49 @@
     },
     {
       "id": "2",
-      "title": "Bojan Krivokapić website",
+      "title": "Marijana Čanak",
+      "type": "Website",
+      "description": "Official website for Serbian writer Marijana Čanak",
+      "image": "/portfolio/marijanacanak.jpg",
+      "url": "https://marijanacanak.com",
+      "github": "https://github.com/peraknezevic/marijanacanak",
+      "stack": [
+        "Next.js",
+        "React",
+        "Next Auth",
+        "Tailwind CSS",
+        "Prisma",
+        "MongoDB",
+        "axios",
+        "zod"
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Bojan Krivokapić",
+      "type": "Website",
       "description": "Official website for Serbian writer Bojan Krivokapić",
-      "image": "",
+      "image": "/portfolio/bojankrivokapic.jpg",
       "url": "https://bojankrivokapic.com",
+      "github": "https://github.com/peraknezevic/bojan-v2",
+      "stack": ["Wordpress", "HTML", "CSS"]
+    },
+    {
+      "id": "4",
+      "title": "Akengen",
+      "type": "Website",
+      "description": "School of wisdom website",
+      "image": "/portfolio/akengen.jpg",
+      "url": "https://akengen.com",
+      "stack": ["Wordpress", "HTML", "CSS"]
+    },
+    {
+      "id": "5",
+      "title": "all about Madonna",
+      "type": "Website",
+      "description": "Madonna fansite",
+      "image": "/portfolio/allaboutmadonna.jpg",
+      "url": "",
       "stack": ["Wordpress", "HTML", "CSS"]
     }
   ]
