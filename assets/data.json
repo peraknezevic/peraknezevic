@@ -1,23 +1,29 @@
-[
-  {
-    "title": "Marijana Čanak website",
-    "description": "Official website for Serbian writer Marijana Čanak",
-    "url": "https://marijanacanak.com",
-    "stack": [
-      "Next.js",
-      "React",
-      "Next Auth",
-      "Tailwind CSS",
-      "Prisma",
-      "MongoDB",
-      "axios",
-      "zod"
-    ]
-  },
-  {
-    "title": "Bojan Krivokapić website",
-    "description": "Official website for Serbian writer Bojan Krivokapić",
-    "url": "https://marijanacanak.com",
-    "stack": ["Wordpress", "HTML", "CSS"]
-  }
-]
+{
+  "projects": [
+    {
+      "id": "1",
+      "title": "Marijana Čanak website",
+      "description": "Official website for Serbian writer Marijana Čanak",
+      "image": "",
+      "url": "https://marijanacanak.com",
+      "stack": [
+        "Next.js",
+        "React",
+        "Next Auth",
+        "Tailwind CSS",
+        "Prisma",
+        "MongoDB",
+        "axios",
+        "zod"
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Bojan Krivokapić website",
+      "description": "Official website for Serbian writer Bojan Krivokapić",
+      "image": "",
+      "url": "https://bojankrivokapic.com",
+      "stack": ["Wordpress", "HTML", "CSS"]
+    }
+  ]
+}
