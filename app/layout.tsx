@@ -1,9 +1,7 @@
 import type { Metadata } from "next"
-import { Inter } from "next/font/google"
+import { GeistMono } from "geist/font/mono"
 import "./globals.css"
 import Navbar from "@/components/Navbar"
-
-const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
   title: "Pera Knezevic Web Developer Portfolio",
@@ -16,8 +14,8 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en">
-      <body className={inter.className}>
+    <html lang="en" className="root">
+      <body className={`${GeistMono.className} bg-orange-100 text-red-900`}>
         <Navbar />
         {children}
       </body>

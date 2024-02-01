@@ -1,7 +1,9 @@
+import { Github, Mail } from "lucide-react"
 const Navbar = () => {
   return (
     <div>
-      <button className="btn-brutal">Brutal</button>
+      <Mail />
+      <Github />
     </div>
   )
 }

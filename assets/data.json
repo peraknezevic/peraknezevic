@@ -66,5 +66,58 @@
       "url": "",
       "stack": ["Wordpress", "HTML", "CSS"]
     }
-  ]
+  ],
+  "uses": {
+    "hardware": {
+      "computer": "Macbook Air M1 16GB",
+      "monitor": "AOC Q32V4",
+      "keyboard": "Logitech K780",
+      "mouse": "Logitech MX Master 2S",
+      "speakers": "Logitech MX Sound",
+      "phone": "iPhone 12",
+      "tablet": "iPad 7"
+    },
+    "software": {
+      "os": "macOS Sanoma 14.4",
+      "code editor": "VS Code",
+      "plugins": [
+        "Better Comments",
+        "Code Spell Checker",
+        "ES7+ React/Redux/React-Native/JS snippets",
+        "ESLint",
+        "Guthub Actions",
+        "GitLens",
+        "Import Cost",
+        "Live Server",
+        "Markdown All in One",
+        "npm IntelliSense",
+        "Path IntelliSense",
+        "Postman",
+        "Prettier",
+        "Pretty TypeScript Errors",
+        "Prisma",
+        "Tailwind CSS IntelliSense",
+        "Turbo Console Log"
+      ],
+      "dev tools": ["Figma", "Filezilla", "Hyper", "Local"],
+      "default browser": "Safari",
+      "other browsers": [
+        "Google Chrome",
+        "Google Chrome Canary",
+        "Firefox",
+        "Safari Technology Preview",
+        "",
+        "Arc"
+      ],
+      "apps": [
+        "Be Focused Pro",
+        "IINA",
+        "Lulu",
+        "Magnet",
+        "Pixelmator Pro",
+        "Tidal",
+        "XnViewMP"
+      ]
+    }
+  }
 }
