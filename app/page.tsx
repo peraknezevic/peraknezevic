@@ -6,11 +6,13 @@ import Card from "@/components/Card"
 const Home = async () => {
   const { projects } = await getLocalData()
   return (
-    <div className="flex gap-16 flex-wrap mx-auto justify-center w-[80vw] max-w-screen-lg">
-      {projects.map((project: Project) => {
-        return <Card project={project} key={project.id} />
-      })}
-    </div>
+    <main className="bg-slate-100 py-32 overflow-scroll w-full justify-center">
+      <div className="max-w-screen-xl flex flex-wrap gap-32 mx-auto">
+        {projects.map((project: Project) => {
+          return <Card project={project} key={project.id} />
+        })}
+      </div>
+    </main>
   )
 }
 

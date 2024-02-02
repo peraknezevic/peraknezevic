@@ -69,17 +69,23 @@
   ],
   "uses": {
     "hardware": {
-      "computer": "Macbook Air M1 16GB",
-      "monitor": "AOC Q32V4",
+      "laptop": "Macbook Air M1 16GB",
+      "desktop": "Mac mini Intel",
+      "monitor": "32 Inch AOC Q32V4",
+      "storage": "3TB WD My Passport",
       "keyboard": "Logitech K780",
       "mouse": "Logitech MX Master 2S",
+      "headphones": "Sony WH-CH510",
       "speakers": "Logitech MX Sound",
       "phone": "iPhone 12",
-      "tablet": "iPad 7"
+      "tablet": "iPad 7",
+      "desk": "Ikea Anfallare / Hilver",
+      "chair": "Ikea Järvfjället"
     },
     "software": {
       "os": "macOS Sanoma 14.4",
-      "code editor": "VS Code",
+      "codeEditor": "VS Code",
+      "vscodeTheme": "Material Theme Darker",
       "plugins": [
         "Better Comments",
         "Code Spell Checker",
@@ -99,18 +105,21 @@
         "Tailwind CSS IntelliSense",
         "Turbo Console Log"
       ],
-      "dev tools": ["Figma", "Filezilla", "Hyper", "Local"],
-      "default browser": "Safari",
-      "other browsers": [
+      "devTools": ["Figma", "Filezilla", "Hyper", "Local"],
+      "defaultBrowser": "Safari",
+      "otherBrowsers": [
         "Google Chrome",
         "Google Chrome Canary",
         "Firefox",
         "Safari Technology Preview",
-        "",
         "Arc"
       ],
       "apps": [
         "Be Focused Pro",
+        "Discord",
+        "Duolingo",
+        "Google Drive",
+        "Handbrake",
         "IINA",
         "Lulu",
         "Magnet",
