@@ -2,8 +2,7 @@ import { getLocalData } from "@/utils/actions"
 import { SiApple, SiIkea, SiLogitech } from "react-icons/si"
 
 const Uses = async () => {
-  const { uses } = await getLocalData()
-  console.log(uses)
+  const uses = await getLocalData("uses")
   return (
     <div className="flex flex-col gap-8 max-w-screen-md mx-auto">
       <div className="text-center">

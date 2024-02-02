@@ -13,6 +13,7 @@
         "React",
         "Next Auth",
         "Tailwind CSS",
+        "Cloudinary",
         "Prisma",
         "MongoDB",
         "axios",
@@ -21,6 +22,26 @@
     },
     {
       "id": "2",
+      "title": "Nega Biljaka",
+      "type": "Website",
+      "description": "Online guide for houseplant genera, plant care etc.",
+      "image": "/portfolio/placeholder.jpg",
+      "url": "https://negabiljaka.com",
+      "github": "https://github.com/peraknezevic/nega-biljaka-v2",
+      "stack": [
+        "Next.js",
+        "React",
+        "Next Auth",
+        "Tailwind CSS",
+        "Cloudinary",
+        "Prisma",
+        "MongoDB",
+        "axios",
+        "zod"
+      ]
+    },
+    {
+      "id": "3",
       "title": "Marijana Čanak",
       "type": "Website",
       "description": "Official website for Serbian writer Marijana Čanak",
@@ -36,10 +57,21 @@
         "MongoDB",
         "axios",
         "zod"
-      ]
+      ],
+      "status": "Online"
     },
     {
-      "id": "3",
+      "id": "4",
+      "title": "Portfolio",
+      "type": "Website",
+      "description": "My personal portfolio website",
+      "image": "/portfolio/placeholder.jpg",
+      "url": "https://peraknezevic.com",
+      "github": "https://github.com/peraknezevic/peraknezevic",
+      "stack": ["Next.js", "React", "Tailwind CSS", "Cloudinary"]
+    },
+    {
+      "id": "5",
       "title": "Bojan Krivokapić",
       "type": "Website",
       "description": "Official website for Serbian writer Bojan Krivokapić",
@@ -49,7 +81,7 @@
       "stack": ["Wordpress", "HTML", "CSS"]
     },
     {
-      "id": "4",
+      "id": "6",
       "title": "Akengen",
       "type": "Website",
       "description": "School of wisdom website",
@@ -58,7 +90,17 @@
       "stack": ["Wordpress", "HTML", "CSS"]
     },
     {
-      "id": "5",
+      "id": "7",
+      "title": "Bojan Krivokapić",
+      "type": "Website",
+      "description": "Official website for Serbian writer Bojan Krivokapić",
+      "image": "/portfolio/bojankrivokapic-v1.jpg",
+      "url": "",
+      "github": "https://github.com/peraknezevic/bojan-v1",
+      "stack": ["Wordpress", "HTML", "CSS"]
+    },
+    {
+      "id": "8",
       "title": "all about Madonna",
       "type": "Website",
       "description": "Madonna fansite",
