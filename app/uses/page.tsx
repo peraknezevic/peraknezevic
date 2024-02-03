@@ -7,7 +7,7 @@ const Uses = async () => {
   return (
     <div className="max-w-screen-xl flex flex-col gap-4 mx-auto">
       <h2 className="text-5xl font-bold mb-8 text-slate-900 dark:text-slate-100">
-        Tools I Use
+        /Uses
       </h2>
 
       <article>
