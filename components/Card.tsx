@@ -1,40 +1,57 @@
-import { Project } from "@/app/types"
+import { Website } from "@/app/types"
 import CldImage from "./CldImage"
+import { FiArrowRight } from "react-icons/fi"
 
-const Card = ({ project }: { project: Project }) => {
+const Card = ({ website }: { website: Website }) => {
   return (
-    <div>
-      <article className="w-full flex px-16 gap-32">
-        <div className="px-8 py-8 my-8 text-left w-1/2 h-full bg-white translate-x-10">
-          <h1 className="text-3xl font-bold mb-4">{project.title}</h1>
-          <p className="text-sm mb-4 uppercase">{project.type}</p>
-          <p className="text-sm mb-4 line-clamp-4">{project.description}</p>
-          <div className="flex flex-wrap gap-2">
-            {project.stack.map((item) => (
-              <span
-                key={item}
-                className=" text-black tracking-wider text-xs font-bold py-1 px-2 bg-white uppercase rounded-md"
-              >
-                {item}
-              </span>
-            ))}
-          </div>
-          {project.url !== "" && (
-            <p>
-              <a href={project.url}>Visit the website</a>
-            </p>
-          )}
+    <article className="w-full flex flex-col xl:flex-row gap-8 xl:gap-24 py-24 border-b-2 border-black dark:border-slate-100 justify-between items-center">
+      <div className="flex flex-col gap-4 xl:w-1/2 pl-4">
+        <h1 className="text-3xl font-bold">{website.title}</h1>
+        <p>{website.description}</p>
+        <p className="mt-4">
+          <span>Tech used:</span>
+        </p>
+        <div className="flex flex-wrap gap-2 py-1">
+          {website.stack.map((item) => (
+            <span
+              key={item.url}
+              className="px-2 py-1 bg-slate-100 dark:bg-slate-700 rounded-lg inline"
+            >
+              <a href={item.url}>{item.title}</a>
+            </span>
+          ))}
         </div>
-        <figure className="w-1/2 h-full border-black border-4 rounded-xl overflow-hidden drop-shadow-2xl hover:scale-110 transition duration-500 cursor-pointer">
-          <CldImage
-            src={project.image}
-            alt={project.title}
-            width="1000"
-            height="1000"
-          />
-        </figure>
-      </article>
-    </div>
+
+        <p className="mt-8">
+          {website.url && (
+            <a
+              href={website.url}
+              className="border-b border-black dark:border-slate-100 pb-2 inline-block hover:border-b-2 hover:font-bold transition-all mr-8 mb-8"
+              title={`Visit ${website.title} website`}
+            >
+              Visit the website <FiArrowRight className="inline" />
+            </a>
+          )}
+          {website.github && (
+            <a
+              href={website.github}
+              className="border-b border-black dark:border-slate-100 pb-2 inline-block hover:border-b-2 hover:font-bold transition-all"
+              title={`Visit ${website.title} Github Project page`}
+            >
+              Project on Github <FiArrowRight className="inline" />
+            </a>
+          )}
+        </p>
+      </div>
+      <figure className="xl:w-1/2 h-full border-black dark:border-slate-100 border-4 rounded-xl overflow-hidden drop-shadow-2xl  hover:scale-110 transition duration-500 cursor-pointer">
+        <CldImage
+          src={website.image}
+          alt={website.title}
+          width="1000"
+          height="1000"
+        />
+      </figure>
+    </article>
   )
 }
 export default Card

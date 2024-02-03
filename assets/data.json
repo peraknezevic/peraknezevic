@@ -1,62 +1,67 @@
 {
-  "projects": [
+  "websites": [
     {
       "id": "1",
       "title": "Houseplants",
       "type": "Website",
-      "description": "Online guide for houseplant genera, plant care etc.",
+      "description": "Online guide for houseplant genera, plant care, articles about plants etc.",
       "image": "/portfolio/houseplants.jpg",
       "url": "https://houseplants.xyz",
       "github": "https://github.com/peraknezevic/houseplants-v2",
       "stack": [
-        "Next.js",
-        "React",
-        "Next Auth",
-        "Tailwind CSS",
-        "Cloudinary",
-        "Prisma",
-        "MongoDB",
-        "axios",
-        "zod"
-      ]
+        { "title": "Javascript", "url": "https://tc39.es/ecma262" },
+        { "title": "React", "url": "https://react.dev" },
+        { "title": "Next.js", "url": "https://nextjs.org" },
+        { "title": "Auth.js", "url": "https://authjs.dev" },
+        { "title": "Tailwind CSS", "url": "https://tailwindcss.com" },
+        { "title": "Cloudinary", "url": "https://cloudinary.com" },
+        { "title": "Prisma", "url": "https://prisma.io" },
+        { "title": "MongoDB", "url": "https:/mongodb.com" },
+        { "title": "axios", "url": "https://axios-http.com" },
+        { "title": "zod", "url": "https://zod.dev" }
+      ],
+      "status": "Online"
     },
     {
       "id": "2",
       "title": "Nega Biljaka",
       "type": "Website",
-      "description": "Online guide for houseplant genera, plant care etc.",
+      "description": "Serbian language version of Houseplants website",
       "image": "/portfolio/placeholder.jpg",
       "url": "https://negabiljaka.com",
       "github": "https://github.com/peraknezevic/nega-biljaka-v2",
       "stack": [
-        "Next.js",
-        "React",
-        "Next Auth",
-        "Tailwind CSS",
-        "Cloudinary",
-        "Prisma",
-        "MongoDB",
-        "axios",
-        "zod"
-      ]
+        { "title": "Javascript", "url": "https://tc39.es/ecma262" },
+        { "title": "React", "url": "https://react.dev" },
+        { "title": "Next.js", "url": "https://nextjs.org" },
+        { "title": "Auth.js", "url": "https://authjs.dev" },
+        { "title": "Tailwind CSS", "url": "https://tailwindcss.com" },
+        { "title": "Cloudinary", "url": "https://cloudinary.com" },
+        { "title": "Prisma", "url": "https://prisma.io" },
+        { "title": "MongoDB", "url": "https:/mongodb.com" },
+        { "title": "axios", "url": "https://axios-http.com" },
+        { "title": "zod", "url": "https://zod.dev" }
+      ],
+      "status": "In Development"
     },
     {
       "id": "3",
       "title": "Marijana Čanak",
       "type": "Website",
-      "description": "Official website for Serbian writer Marijana Čanak",
+      "description": "Official website for Serbian author Marijana Čanak",
       "image": "/portfolio/marijanacanak.jpg",
       "url": "https://marijanacanak.com",
       "github": "https://github.com/peraknezevic/marijanacanak",
       "stack": [
-        "Next.js",
-        "React",
-        "Next Auth",
-        "Tailwind CSS",
-        "Prisma",
-        "MongoDB",
-        "axios",
-        "zod"
+        { "title": "Javascript", "url": "https://tc39.es/ecma262" },
+        { "title": "React", "url": "https://react.dev" },
+        { "title": "Next.js", "url": "https://nextjs.org" },
+        { "title": "Auth.js", "url": "https://authjs.dev" },
+        { "title": "Tailwind CSS", "url": "https://tailwindcss.com" },
+        { "title": "Prisma", "url": "https://prisma.io" },
+        { "title": "MongoDB", "url": "https:/mongodb.com" },
+        { "title": "axios", "url": "https://axios-http.com" },
+        { "title": "zod", "url": "https://zod.dev" }
       ],
       "status": "Online"
     },
@@ -68,17 +73,30 @@
       "image": "/portfolio/placeholder.jpg",
       "url": "https://peraknezevic.com",
       "github": "https://github.com/peraknezevic/peraknezevic",
-      "stack": ["Next.js", "React", "Tailwind CSS", "Cloudinary"]
+      "stack": [
+        { "title": "Javascript", "url": "https://tc39.es/ecma262" },
+        { "title": "React", "url": "https://react.dev" },
+        { "title": "Next.js", "url": "https://nextjs.org" },
+        { "title": "Tailwind CSS", "url": "https://tailwindcss.com" },
+        { "title": "Cloudinary", "url": "https://cloudinary.com" }
+      ],
+      "status": "Online"
     },
     {
       "id": "5",
       "title": "Bojan Krivokapić",
       "type": "Website",
-      "description": "Official website for Serbian writer Bojan Krivokapić",
+      "description": "Official website for Serbian author Bojan Krivokapić",
       "image": "/portfolio/bojankrivokapic.jpg",
       "url": "https://bojankrivokapic.com",
       "github": "https://github.com/peraknezevic/bojan-v2",
-      "stack": ["Wordpress", "HTML", "CSS"]
+      "stack": [
+        { "title": "Wordpress", "url": "https://wordpress.org" },
+        { "title": "HTML", "url": "https://w3.org/html" },
+        { "title": "CSS", "url": "https://w3.org/Style/CSS/" },
+        { "title": "Javascript", "url": "https://tc39.es/ecma262" }
+      ],
+      "status": "Online"
     },
     {
       "id": "6",
@@ -87,17 +105,28 @@
       "description": "School of wisdom website",
       "image": "/portfolio/akengen.jpg",
       "url": "https://akengen.com",
-      "stack": ["Wordpress", "HTML", "CSS"]
+      "stack": [
+        { "title": "Wordpress", "url": "https://wordpress.org" },
+        { "title": "HTML", "url": "https://w3.org/html" },
+        { "title": "CSS", "url": "https://w3.org/Style/CSS/" },
+        { "title": "Javascript", "url": "https://tc39.es/ecma262" }
+      ],
+      "status": "Online"
     },
     {
       "id": "7",
       "title": "Bojan Krivokapić",
       "type": "Website",
-      "description": "Official website for Serbian writer Bojan Krivokapić",
+      "description": "Official website for Serbian author Bojan Krivokapić",
       "image": "/portfolio/bojankrivokapic-v1.jpg",
-      "url": "",
       "github": "https://github.com/peraknezevic/bojan-v1",
-      "stack": ["Wordpress", "HTML", "CSS"]
+      "stack": [
+        { "title": "Wordpress", "url": "https://wordpress.org" },
+        { "title": "HTML", "url": "https://w3.org/html" },
+        { "title": "CSS", "url": "https://w3.org/Style/CSS/" },
+        { "title": "Javascript", "url": "https://tc39.es/ecma262" }
+      ],
+      "status": "Offline"
     },
     {
       "id": "8",
@@ -106,7 +135,14 @@
       "description": "Madonna fansite",
       "image": "/portfolio/allaboutmadonna.jpg",
       "url": "",
-      "stack": ["Wordpress", "HTML", "CSS"]
+      "github": "",
+      "stack": [
+        { "title": "Wordpress", "url": "https://wordpress.org" },
+        { "title": "HTML", "url": "https://w3.org/html" },
+        { "title": "CSS", "url": "https://w3.org/Style/CSS/" },
+        { "title": "Javascript", "url": "https://tc39.es/ecma262" }
+      ],
+      "status": "Offline"
     }
   ],
   "uses": {

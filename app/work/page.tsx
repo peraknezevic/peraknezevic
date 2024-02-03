@@ -1,19 +1,21 @@
 import Card from "@/components/Card"
-import { Project } from "../types"
+import { Website } from "../types"
 import { getLocalData } from "@/utils/actions"
 
 const Work = async () => {
-  const projects = await getLocalData("projects")
+  const websites = await getLocalData("websites")
 
   return (
-    <main className="bg-slate-100 py-32 overflow-scroll w-full justify-center">
-      <h2>Recent Projects</h2>
-      <div className="max-w-screen-xl flex flex-wrap gap-32 mx-auto">
-        {projects.map((project: Project) => {
-          return <Card project={project} key={project.id} />
+    <div className="max-w-screen-xl flex flex-col gap-4 mx-auto">
+      <h2 className="text-5xl font-bold mb-16">Work</h2>
+      <h2 className="text-3xl font-bold">Websites</h2>
+
+      <div className="flex flex-col border-t-2 border-black mt-16 dark:border-slate-100">
+        {websites.map((website: Website) => {
+          return <Card website={website} key={website.id} />
         })}
       </div>
-    </main>
+    </div>
   )
 }
 export default Work

@@ -1,9 +1,10 @@
-export type Project = {
+export type Website = {
   id: string
   title: string
   type: string
   description: string
-  url: string
+  url?: string
+  github?: string
   image: string
-  stack: string[]
+  stack: { title: string; url: string }[]
 }
