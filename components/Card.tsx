@@ -4,7 +4,10 @@ import { Website } from "@/app/types"
 
 const Card = ({ website }: { website: Website }) => {
   return (
-    <article className="w-full flex flex-col xl:flex-row gap-8 xl:gap-24 py-24 border-b-2 border-black dark:border-slate-100 justify-between items-center">
+    <article
+      className="w-full flex flex-col xl:flex-row gap-8 xl:gap-24 py-24 border-b-2 border-black dark:border-slate-100 justify-between items-center"
+      id={website.id}
+    >
       <div className="flex flex-col gap-4 xl:w-1/2 pl-4">
         <h1 className="text-3xl font-bold text-slate-900 dark:text-slate-100">
           {website.title}
@@ -46,7 +49,7 @@ const Card = ({ website }: { website: Website }) => {
           )}
         </p>
       </div>
-      <figure className="xl:w-1/2 h-full border-slate-950 dark:border-slate-100 border-4 rounded-xl overflow-hidden drop-shadow-2xl xl:hover:scale-110 xl:transition xl:duration-500 cursor-pointer">
+      <figure className="xl:w-1/2 h-full border-slate-950 dark:border-slate-100 border-4 rounded-xl overflow-hidden shadow-2xl xl:hover:scale-110 xl:transition xl:duration-500 cursor-pointer">
         <CldImage
           src={website.image}
           alt={website.title}

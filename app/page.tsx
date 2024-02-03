@@ -18,7 +18,7 @@ const Home = async () => {
         })}
       </div>
       <Link
-        href="/work"
+        href="/work#4"
         className="mx-auto my-16 lg:my-32 uppercase text-xl border border-black dark:border-pink-500 px-4 py-2 inline-block hover:border-2 hover:font-bold transition-all"
       >
         More projects <FiArrowRight className="inline" />
