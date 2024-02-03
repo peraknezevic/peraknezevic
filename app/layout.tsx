@@ -1,5 +1,6 @@
 import "./globals.css"
 
+import { Analytics } from "@vercel/analytics/react"
 import { GeistSans } from "geist/font/sans"
 import Header from "@/components/Header"
 import type { Metadata } from "next"
@@ -28,6 +29,7 @@ export default function RootLayout({
           <Header />
           <main className="bg-slate-200 dark:bg-slate-800 py-16 lg:py-32 px-8 lg:px-16 overflow-scroll w-full justify-center">
             {children}
+            <Analytics />
           </main>
         </Providers>
       </body>
