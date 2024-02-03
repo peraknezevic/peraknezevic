@@ -33,6 +33,7 @@ const Uses = async () => {
           <li>Mouse: {uses.hardware.mouse}</li>
           <li>Speakers: {uses.hardware.speakers}</li>
           <li>Headphones: {uses.hardware.headphones}</li>
+          <li>Earbuds: {uses.hardware.earbuds}</li>
         </ul>
       </article>
       <article>
