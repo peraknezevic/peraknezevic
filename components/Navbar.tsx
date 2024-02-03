@@ -67,7 +67,7 @@ const Navbar = () => {
             <Link
               href={link.url}
               title={link.titleTag}
-              className="border-b border-black dark:border-pink-500 pb-2 hover:border-b-2 hover:font-bold transition-all"
+              className="bg-gradient-to-r from-rose-400 via-fuchsia-500 to-indigo-500 bg-[length:100%_3px] bg-no-repeat bg-bottom hover:bg-right hover:bg-[length:100%_12px] transition-all pb-2"
             >
               {link.title}
             </Link>

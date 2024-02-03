@@ -28,11 +28,11 @@ const Card = ({ website }: { website: Website }) => {
           ))}
         </div>
 
-        <p className="mt-8">
+        <p className="mt-8 flex gap-8">
           {website.url && (
             <a
               href={website.url}
-              className="border-b border-slate-950 dark:border-pink-500 pb-2 inline-block hover:border-b-2 hover:font-bold transition-all mr-8 mb-8"
+              className="bg-gradient-to-r from-rose-400 via-fuchsia-500 to-indigo-500 bg-[length:100%_3px] bg-no-repeat bg-bottom hover:bg-right hover:bg-[length:100%_12px] transition-all pb-2"
               title={`Visit ${website.title} website`}
             >
               Visit the website <FiArrowRight className="inline" />
@@ -41,7 +41,7 @@ const Card = ({ website }: { website: Website }) => {
           {website.github && (
             <a
               href={website.github}
-              className="border-b border-slate-950 dark:border-pink-500 pb-2 inline-block hover:border-b-2 hover:font-bold transition-all"
+              className="bg-gradient-to-r from-rose-400 via-fuchsia-500 to-indigo-500 bg-[length:100%_3px] bg-no-repeat bg-bottom hover:bg-right hover:bg-[length:100%_12px] transition-all pb-2"
               title={`Visit ${website.title} Github Project page`}
             >
               Github Repo <FiArrowRight className="inline" />
