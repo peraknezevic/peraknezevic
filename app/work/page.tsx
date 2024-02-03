@@ -7,7 +7,7 @@ const Work = async () => {
 
   return (
     <div className="max-w-screen-xl flex flex-col gap-4 mx-auto">
-      <h2 className="text-5xl font-bold mb-8 text-slate-900 dark:text-slate-100">
+      <h2 className="text-4xl xl:text-5xl font-bold mb-8 text-slate-900 dark:text-slate-100">
         Work
       </h2>
       <h2 className="text-3xl font-bold">Websites</h2>
