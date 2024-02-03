@@ -19,9 +19,9 @@ const Header = () => {
             <h1 className="text-4xl text-slate-950 dark:text-slate-50 font-bold mb-2">
               Pera Knezevic
             </h1>
-            <h2 className="text-2xl text-slate-900 dark:text-slate-100">
+            <p className="text-2xl text-slate-900 dark:text-slate-100">
               Web Developer
-            </h2>
+            </p>
           </div>
         </div>
         <Navbar />
