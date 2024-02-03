@@ -5,6 +5,7 @@ export type Website = {
   description: string
   url?: string
   github?: string
+  status: string
   image: string
   stack: { title: string; url: string }[]
 }

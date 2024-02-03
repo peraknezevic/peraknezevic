@@ -60,7 +60,7 @@ const Navbar = () => {
             <Link
               href={link.url}
               title={link.titleTag}
-              className="border-b border-black dark:border-slate-100 pb-2 hover:border-b-2 hover:font-bold transition-all"
+              className="border-b border-black dark:border-pink-500 pb-2 hover:border-b-2 hover:font-bold transition-all"
             >
               {link.title}
             </Link>

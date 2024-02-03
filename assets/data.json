@@ -27,7 +27,7 @@
       "title": "Nega Biljaka",
       "type": "Website",
       "description": "Serbian language version of Houseplants website",
-      "image": "/portfolio/placeholder.jpg",
+      "image": "/portfolio/houseplants.jpg",
       "url": "https://negabiljaka.com",
       "github": "https://github.com/peraknezevic/nega-biljaka-v2",
       "stack": [
@@ -70,7 +70,7 @@
       "title": "Portfolio",
       "type": "Website",
       "description": "My personal portfolio website",
-      "image": "/portfolio/placeholder.jpg",
+      "image": "/portfolio/portfolio.jpg",
       "url": "https://peraknezevic.com",
       "github": "https://github.com/peraknezevic/peraknezevic",
       "stack": [

@@ -1,58 +1,42 @@
-import { getLocalData } from "@/utils/actions"
 import { SiApple, SiIkea, SiLogitech } from "react-icons/si"
+
+import { getLocalData } from "@/utils/actions"
 
 const Uses = async () => {
   const uses = await getLocalData("uses")
   return (
-    <div className="flex flex-col gap-8 max-w-screen-md mx-auto">
-      <div className="text-center">
-        <h1 className="text-6xl font-bold leading-10">Tools I Use</h1>
-        <p className="p-4">A list of tools I use to get things done</p>
-      </div>
-      <div>
-        <h2 className="text-3xl font-bold leading-10">Hardware</h2>
+    <div className="max-w-screen-xl flex flex-col gap-4 mx-auto">
+      <h2 className="text-5xl font-bold mb-8 text-slate-900 dark:text-slate-100">
+        Tools I Use
+      </h2>
+
+      <article>
+        <h3 className="text-3xl font-bold">Hardware</h3>
         <ul className="p-4 flex flex-col gap-2 list-disc">
-          <li>
-            Laptop: <SiApple className="inline align-baseline" />{" "}
-            <span className="uppercase font-bold">{uses.hardware.laptop}</span>
-          </li>
-          <li>
-            Desktop: <SiApple className="inline align-baseline" />{" "}
-            <span className="uppercase font-bold">{uses.hardware.desktop}</span>
-          </li>
-          <li>
-            Phone: <SiApple className="inline align-baseline" />{" "}
-            <span className="uppercase font-bold">{uses.hardware.phone}</span>
-          </li>
-          <li>
-            Tablet: <SiApple className="inline align-baseline" />{" "}
-            <span className="uppercase font-bold">{uses.hardware.tablet}</span>
-          </li>
+          <li>Laptop: {uses.hardware.laptop}</li>
+          <li>Desktop: {uses.hardware.desktop}</li>
+          <li>Phone: {uses.hardware.phone}</li>
+          <li>Tablet: {uses.hardware.tablet}</li>
         </ul>
-      </div>
-      <div>
-        <h2 className="text-3xl font-bold leading-10">Desk Setup</h2>
+      </article>
+      <article>
+        <h3 className="text-3xl font-bold leading-10">Desk Setup</h3>
         <ul className="p-4 flex flex-col gap-2 list-disc">
           <li>Desk: {uses.hardware.desk}</li>
-          <li>
-            Chair: <SiIkea />
-            {uses.hardware.chair}
-          </li>
+          <li>Chair: {uses.hardware.chair}</li>
           <li>Monitor: {uses.hardware.monitor}</li>
           <li>Storage: {uses.hardware.storage}</li>
           <li>
-            Keyboard: <SiLogitech className="inline align-baseline" />{" "}
-            <span className="uppercase font-bold">
-              {uses.hardware.keyboard}
-            </span>
+            Keyboard:
+            {uses.hardware.keyboard}
           </li>
           <li>Mouse: {uses.hardware.mouse}</li>
           <li>Speakers: {uses.hardware.speakers}</li>
           <li>Headphones: {uses.hardware.headphones}</li>
         </ul>
-      </div>
-      <div>
-        <h2 className="text-3xl font-bold">Software</h2>
+      </article>
+      <article>
+        <h3 className="text-3xl font-bold">Software</h3>
         <ul className="p-4 flex flex-col gap-2 list-disc">
           <li>OS: {uses.software.os}</li>
           <li>Code Editor: {uses.software.codeEditor}</li>
@@ -95,7 +79,7 @@ const Uses = async () => {
             ))}
           </li>
         </ul>
-      </div>
+      </article>
     </div>
   )
 }
