@@ -1,13 +1,14 @@
 import {
+  SiFacebook,
   SiGithub,
   SiInstagram,
-  SiLinkedin,
-  SiFacebook,
   SiLastdotfm,
+  SiLinkedin,
 } from "react-icons/si"
+
 import Link from "next/link"
-import ThemeSwitch from "./ThemeSwitch"
 import { LuMail } from "react-icons/lu"
+import ThemeSwitch from "./ThemeSwitch"
 
 const links = [
   { id: 1, url: "/", title: "Home", titleTag: "Go to home page" },
@@ -45,7 +46,13 @@ const social = [
     titleTag: "Visit my Facebook profile",
   },
   {
-    id: 4,
+    id: 5,
+    url: "https://instagram.com/peraknezevic",
+    icon: <SiInstagram />,
+    titleTag: "Visit my Instagram profile",
+  },
+  {
+    id: 6,
     url: "https://last.fm/user/pera2109",
     icon: <SiLastdotfm />,
     titleTag: "Visit my Last.fm profile",

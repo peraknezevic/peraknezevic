@@ -13,6 +13,7 @@ const Header = () => {
               width="1000"
               height="1000"
               className="rounded-full"
+              priority
             />
           </div>
           <div className="mx-auto">
