@@ -16,7 +16,7 @@ const links = [
   {
     id: 3,
     url: "/uses",
-    title: "?Uses",
+    title: "/Uses",
     titleTag: "Checkout the gear and software I use",
   },
 ]
