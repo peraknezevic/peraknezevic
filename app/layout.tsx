@@ -5,6 +5,7 @@ import { GeistSans } from "geist/font/sans"
 import Header from "@/components/Header"
 import type { Metadata } from "next"
 import { Providers } from "./providers"
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 export const metadata: Metadata = {
   title: "Pera Knezevic Web Developer Portfolio",
@@ -32,6 +33,7 @@ export default function RootLayout({
             <Analytics />
           </main>
         </Providers>
+        <SpeedInsights />
       </body>
     </html>
   )
