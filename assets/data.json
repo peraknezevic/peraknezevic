@@ -23,28 +23,6 @@
       "status": "Online"
     },
     {
-      "id": "2",
-      "title": "Nega Biljaka",
-      "type": "Website",
-      "description": "Serbian language version of Houseplants website",
-      "image": "/portfolio/houseplants.jpg",
-      "url": "https://negabiljaka.com",
-      "github": "https://github.com/peraknezevic/nega-biljaka-v2",
-      "stack": [
-        { "title": "Javascript", "url": "https://tc39.es/ecma262" },
-        { "title": "React", "url": "https://react.dev" },
-        { "title": "Next.js", "url": "https://nextjs.org" },
-        { "title": "Auth.js", "url": "https://authjs.dev" },
-        { "title": "Tailwind CSS", "url": "https://tailwindcss.com" },
-        { "title": "Cloudinary", "url": "https://cloudinary.com" },
-        { "title": "Prisma", "url": "https://prisma.io" },
-        { "title": "MongoDB", "url": "https:/mongodb.com" },
-        { "title": "axios", "url": "https://axios-http.com" },
-        { "title": "zod", "url": "https://zod.dev" }
-      ],
-      "status": "In Development"
-    },
-    {
       "id": "3",
       "title": "Marijana Čanak",
       "type": "Website",
