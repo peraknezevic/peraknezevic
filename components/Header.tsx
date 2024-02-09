@@ -8,7 +8,7 @@ const Header = () => {
         <div className="min-h-[calc(100vh-16rem)] w-10/12 mx-auto text-center ">
           <div className="w-full h-auto rounded-full overflow-hidden mx-auto mb-12 shadow-2xl">
             <CldImage
-              src="portfolio/peraknezevic"
+              src="portfolio/peraknezevic-v2"
               alt="Pera Knezevic"
               width="1000"
               height="1000"
