@@ -30,15 +30,15 @@ const social = [
   },
   {
     id: 3,
-    url: "https://peraknezevic.com/assets/Pera-Knezevic-CV.pdf",
-    icon: <GrDocument />,
-    titleTag: "Download my CV",
-  },
-  {
-    id: 4,
     url: "https://linkedin.com/in/predrag-knezevic-062100247/",
     icon: <SiLinkedin />,
     titleTag: "Visit my Linkedin profile page",
+  },
+  {
+    id: 4,
+    url: "./Pera-Knezevic-CV.pdf",
+    icon: <GrDocument />,
+    titleTag: "Download my CV",
   },
 ]
 const Navbar = () => {
