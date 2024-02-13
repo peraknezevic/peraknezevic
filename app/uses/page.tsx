@@ -9,7 +9,7 @@ const Uses = async () => {
       <h2 className="text-4xl xl:text-5xl font-bold pb-16 text-slate-900 dark:text-slate-100 ">
         /Uses
       </h2>
-      <div className="border-t-2 border-slate-900 py-24">
+      <div className="border-t-2 border-slate-900 dark:border-slate-100 py-24">
         <article>
           <h3 className="text-3xl font-bold">Hardware</h3>
           <ul className="p-4 flex flex-col gap-2 list-disc">
