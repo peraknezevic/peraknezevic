@@ -9,16 +9,21 @@
       "url": "https://houseplants.xyz",
       "github": "https://github.com/peraknezevic/houseplants-v2",
       "stack": [
-        { "id": 1, "title": "Javascript", "url": "https://tc39.es/ecma262" },
-        { "id": 2, "title": "React", "url": "https://react.dev" },
-        { "id": 3, "title": "Next.js", "url": "https://nextjs.org" },
-        { "id": 4, "title": "Auth.js", "url": "https://authjs.dev" },
-        { "id": 5, "title": "Tailwind CSS", "url": "https://tailwindcss.com" },
-        { "id": 6, "title": "Cloudinary", "url": "https://cloudinary.com" },
-        { "id": 7, "title": "Prisma", "url": "https://prisma.io" },
-        { "id": 8, "title": "MongoDB", "url": "https:/mongodb.com" },
-        { "id": 9, "title": "axios", "url": "https://axios-http.com" },
-        { "id": 10, "title": "zod", "url": "https://zod.dev" }
+        {
+          "id": 1,
+          "title": "Typescript",
+          "url": "https://typescriptlang.org/"
+        },
+        { "id": 2, "title": "Javascript", "url": "https://tc39.es/ecma262" },
+        { "id": 3, "title": "React", "url": "https://react.dev" },
+        { "id": 4, "title": "Next.js", "url": "https://nextjs.org" },
+        { "id": 5, "title": "Auth.js", "url": "https://authjs.dev" },
+        { "id": 6, "title": "Tailwind CSS", "url": "https://tailwindcss.com" },
+        { "id": 7, "title": "Cloudinary", "url": "https://cloudinary.com" },
+        { "id": 8, "title": "Prisma", "url": "https://prisma.io" },
+        { "id": 9, "title": "MongoDB", "url": "https:/mongodb.com" },
+        { "id": 10, "title": "axios", "url": "https://axios-http.com" },
+        { "id": 11, "title": "zod", "url": "https://zod.dev" }
       ],
       "status": "Online"
     },
@@ -31,15 +36,20 @@
       "url": "https://marijanacanak.com",
       "github": "https://github.com/peraknezevic/marijanacanak",
       "stack": [
-        { "id": 1, "title": "Javascript", "url": "https://tc39.es/ecma262" },
-        { "id": 2, "title": "React", "url": "https://react.dev" },
-        { "id": 3, "title": "Next.js", "url": "https://nextjs.org" },
-        { "id": 4, "title": "Auth.js", "url": "https://authjs.dev" },
-        { "id": 5, "title": "Tailwind CSS", "url": "https://tailwindcss.com" },
-        { "id": 6, "title": "Prisma", "url": "https://prisma.io" },
-        { "id": 7, "title": "MongoDB", "url": "https:/mongodb.com" },
-        { "id": 8, "title": "axios", "url": "https://axios-http.com" },
-        { "id": 9, "title": "zod", "url": "https://zod.dev" }
+        {
+          "id": 1,
+          "title": "Typescript",
+          "url": "https://typescriptlang.org/"
+        },
+        { "id": 2, "title": "Javascript", "url": "https://tc39.es/ecma262" },
+        { "id": 3, "title": "React", "url": "https://react.dev" },
+        { "id": 4, "title": "Next.js", "url": "https://nextjs.org" },
+        { "id": 5, "title": "Auth.js", "url": "https://authjs.dev" },
+        { "id": 6, "title": "Tailwind CSS", "url": "https://tailwindcss.com" },
+        { "id": 7, "title": "Prisma", "url": "https://prisma.io" },
+        { "id": 8, "title": "MongoDB", "url": "https:/mongodb.com" },
+        { "id": 9, "title": "axios", "url": "https://axios-http.com" },
+        { "id": 10, "title": "zod", "url": "https://zod.dev" }
       ],
       "status": "Online"
     },
@@ -52,12 +62,17 @@
       "url": "https://peraknezevic.com",
       "github": "https://github.com/peraknezevic/peraknezevic",
       "stack": [
-        { "id": 1, "title": "Javascript", "url": "https://tc39.es/ecma262" },
-        { "id": 2, "title": "React", "url": "https://react.dev" },
-        { "id": 3, "title": "Next.js", "url": "https://nextjs.org" },
-        { "id": 4, "title": "Tailwind CSS", "url": "https://tailwindcss.com" },
-        { "id": 5, "title": "Framer Motion", "url": "https://cloudinary.com" },
-        { "id": 6, "title": "Cloudinary", "url": "https://framer.com/motion/" }
+        {
+          "id": 1,
+          "title": "Typescript",
+          "url": "https://typescriptlang.org/"
+        },
+        { "id": 2, "title": "Javascript", "url": "https://tc39.es/ecma262" },
+        { "id": 3, "title": "React", "url": "https://react.dev" },
+        { "id": 4, "title": "Next.js", "url": "https://nextjs.org" },
+        { "id": 5, "title": "Tailwind CSS", "url": "https://tailwindcss.com" },
+        { "id": 6, "title": "Framer Motion", "url": "https://cloudinary.com" },
+        { "id": 7, "title": "Cloudinary", "url": "https://framer.com/motion/" }
       ],
       "status": "Online"
     },
