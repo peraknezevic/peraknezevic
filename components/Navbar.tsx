@@ -1,11 +1,6 @@
-import {
-  SiFacebook,
-  SiGithub,
-  SiInstagram,
-  SiLastdotfm,
-  SiLinkedin,
-} from "react-icons/si"
+import { SiGithub, SiLinkedin } from "react-icons/si"
 
+import { GrDocument } from "react-icons/gr"
 import Link from "next/link"
 import { LuMail } from "react-icons/lu"
 import ThemeSwitch from "./ThemeSwitch"
@@ -35,6 +30,12 @@ const social = [
   },
   {
     id: 3,
+    url: "https://peraknezevic.com/assets/Pera-Knezevic-CV.pdf",
+    icon: <GrDocument />,
+    titleTag: "Download my CV",
+  },
+  {
+    id: 4,
     url: "https://linkedin.com/in/predrag-knezevic-062100247/",
     icon: <SiLinkedin />,
     titleTag: "Visit my Linkedin profile page",
