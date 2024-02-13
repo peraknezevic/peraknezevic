@@ -1,6 +1,23 @@
+"use client"
+
 import CldImage from "./CldImage"
 import { FiArrowRight } from "react-icons/fi"
 import { Website } from "@/app/types"
+import { motion } from "framer-motion"
+
+const fadeInAnimationVariants = {
+  initial: {
+    opacity: 0,
+    y: 100,
+  },
+  animate: (index: number) => ({
+    opacity: 1,
+    y: 0,
+    transition: {
+      delay: 0.5 * index,
+    },
+  }),
+}
 
 const Card = ({ website }: { website: Website }) => {
   return (
@@ -17,16 +34,23 @@ const Card = ({ website }: { website: Website }) => {
         <p className="mt-4">
           <span>Tech used:</span>
         </p>
-        <div className="flex flex-wrap gap-2 py-1">
-          {website.stack.map((item) => (
-            <span
+        <ul className="flex flex-wrap gap-2 py-1">
+          {website.stack.map((item, index) => (
+            <motion.li
               key={item.url}
               className="px-2 py-1 bg-slate-100 dark:bg-slate-700 rounded-lg inline"
+              variants={fadeInAnimationVariants}
+              initial="initial"
+              whileInView="animate"
+              viewport={{
+                once: true,
+              }}
+              custom={index}
             >
               <a href={item.url}>{item.title}</a>
-            </span>
+            </motion.li>
           ))}
-        </div>
+        </ul>
 
         <p className="mt-8 flex gap-8">
           {website.url && (

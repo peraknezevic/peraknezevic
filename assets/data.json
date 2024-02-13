@@ -9,16 +9,16 @@
       "url": "https://houseplants.xyz",
       "github": "https://github.com/peraknezevic/houseplants-v2",
       "stack": [
-        { "title": "Javascript", "url": "https://tc39.es/ecma262" },
-        { "title": "React", "url": "https://react.dev" },
-        { "title": "Next.js", "url": "https://nextjs.org" },
-        { "title": "Auth.js", "url": "https://authjs.dev" },
-        { "title": "Tailwind CSS", "url": "https://tailwindcss.com" },
-        { "title": "Cloudinary", "url": "https://cloudinary.com" },
-        { "title": "Prisma", "url": "https://prisma.io" },
-        { "title": "MongoDB", "url": "https:/mongodb.com" },
-        { "title": "axios", "url": "https://axios-http.com" },
-        { "title": "zod", "url": "https://zod.dev" }
+        { "id": 1, "title": "Javascript", "url": "https://tc39.es/ecma262" },
+        { "id": 2, "title": "React", "url": "https://react.dev" },
+        { "id": 3, "title": "Next.js", "url": "https://nextjs.org" },
+        { "id": 4, "title": "Auth.js", "url": "https://authjs.dev" },
+        { "id": 5, "title": "Tailwind CSS", "url": "https://tailwindcss.com" },
+        { "id": 6, "title": "Cloudinary", "url": "https://cloudinary.com" },
+        { "id": 7, "title": "Prisma", "url": "https://prisma.io" },
+        { "id": 8, "title": "MongoDB", "url": "https:/mongodb.com" },
+        { "id": 9, "title": "axios", "url": "https://axios-http.com" },
+        { "id": 10, "title": "zod", "url": "https://zod.dev" }
       ],
       "status": "Online"
     },
@@ -31,15 +31,15 @@
       "url": "https://marijanacanak.com",
       "github": "https://github.com/peraknezevic/marijanacanak",
       "stack": [
-        { "title": "Javascript", "url": "https://tc39.es/ecma262" },
-        { "title": "React", "url": "https://react.dev" },
-        { "title": "Next.js", "url": "https://nextjs.org" },
-        { "title": "Auth.js", "url": "https://authjs.dev" },
-        { "title": "Tailwind CSS", "url": "https://tailwindcss.com" },
-        { "title": "Prisma", "url": "https://prisma.io" },
-        { "title": "MongoDB", "url": "https:/mongodb.com" },
-        { "title": "axios", "url": "https://axios-http.com" },
-        { "title": "zod", "url": "https://zod.dev" }
+        { "id": 1, "title": "Javascript", "url": "https://tc39.es/ecma262" },
+        { "id": 2, "title": "React", "url": "https://react.dev" },
+        { "id": 3, "title": "Next.js", "url": "https://nextjs.org" },
+        { "id": 4, "title": "Auth.js", "url": "https://authjs.dev" },
+        { "id": 5, "title": "Tailwind CSS", "url": "https://tailwindcss.com" },
+        { "id": 6, "title": "Prisma", "url": "https://prisma.io" },
+        { "id": 7, "title": "MongoDB", "url": "https:/mongodb.com" },
+        { "id": 8, "title": "axios", "url": "https://axios-http.com" },
+        { "id": 9, "title": "zod", "url": "https://zod.dev" }
       ],
       "status": "Online"
     },
@@ -52,11 +52,12 @@
       "url": "https://peraknezevic.com",
       "github": "https://github.com/peraknezevic/peraknezevic",
       "stack": [
-        { "title": "Javascript", "url": "https://tc39.es/ecma262" },
-        { "title": "React", "url": "https://react.dev" },
-        { "title": "Next.js", "url": "https://nextjs.org" },
-        { "title": "Tailwind CSS", "url": "https://tailwindcss.com" },
-        { "title": "Cloudinary", "url": "https://cloudinary.com" }
+        { "id": 1, "title": "Javascript", "url": "https://tc39.es/ecma262" },
+        { "id": 2, "title": "React", "url": "https://react.dev" },
+        { "id": 3, "title": "Next.js", "url": "https://nextjs.org" },
+        { "id": 4, "title": "Tailwind CSS", "url": "https://tailwindcss.com" },
+        { "id": 5, "title": "Framer Motion", "url": "https://cloudinary.com" },
+        { "id": 6, "title": "Cloudinary", "url": "https://framer.com/motion/" }
       ],
       "status": "Online"
     },
@@ -69,10 +70,10 @@
       "url": "https://bojankrivokapic.com",
       "github": "https://github.com/peraknezevic/bojan-v2",
       "stack": [
-        { "title": "Wordpress", "url": "https://wordpress.org" },
-        { "title": "HTML", "url": "https://w3.org/html" },
-        { "title": "CSS", "url": "https://w3.org/Style/CSS/" },
-        { "title": "Javascript", "url": "https://tc39.es/ecma262" }
+        { "id": 1, "title": "Wordpress", "url": "https://wordpress.org" },
+        { "id": 2, "title": "HTML", "url": "https://w3.org/html" },
+        { "id": 3, "title": "CSS", "url": "https://w3.org/Style/CSS/" },
+        { "id": 4, "title": "Javascript", "url": "https://tc39.es/ecma262" }
       ],
       "status": "Online"
     },
@@ -84,10 +85,10 @@
       "image": "/portfolio/akengen.jpg",
       "url": "https://akengen.com",
       "stack": [
-        { "title": "Wordpress", "url": "https://wordpress.org" },
-        { "title": "HTML", "url": "https://w3.org/html" },
-        { "title": "CSS", "url": "https://w3.org/Style/CSS/" },
-        { "title": "Javascript", "url": "https://tc39.es/ecma262" }
+        { "id": 1, "title": "Wordpress", "url": "https://wordpress.org" },
+        { "id": 2, "title": "HTML", "url": "https://w3.org/html" },
+        { "id": 3, "title": "CSS", "url": "https://w3.org/Style/CSS/" },
+        { "id": 4, "title": "Javascript", "url": "https://tc39.es/ecma262" }
       ],
       "status": "Online"
     },
@@ -99,10 +100,10 @@
       "image": "/portfolio/bojankrivokapic-v1.jpg",
       "github": "https://github.com/peraknezevic/bojan-v1",
       "stack": [
-        { "title": "Wordpress", "url": "https://wordpress.org" },
-        { "title": "HTML", "url": "https://w3.org/html" },
-        { "title": "CSS", "url": "https://w3.org/Style/CSS/" },
-        { "title": "Javascript", "url": "https://tc39.es/ecma262" }
+        { "id": 1, "title": "Wordpress", "url": "https://wordpress.org" },
+        { "id": 2, "title": "HTML", "url": "https://w3.org/html" },
+        { "id": 3, "title": "CSS", "url": "https://w3.org/Style/CSS/" },
+        { "id": 4, "title": "Javascript", "url": "https://tc39.es/ecma262" }
       ],
       "status": "Offline"
     },
@@ -115,10 +116,10 @@
       "url": "",
       "github": "",
       "stack": [
-        { "title": "Wordpress", "url": "https://wordpress.org" },
-        { "title": "HTML", "url": "https://w3.org/html" },
-        { "title": "CSS", "url": "https://w3.org/Style/CSS/" },
-        { "title": "Javascript", "url": "https://tc39.es/ecma262" }
+        { "id": 1, "title": "Wordpress", "url": "https://wordpress.org" },
+        { "id": 2, "title": "HTML", "url": "https://w3.org/html" },
+        { "id": 3, "title": "CSS", "url": "https://w3.org/Style/CSS/" },
+        { "id": 4, "title": "Javascript", "url": "https://tc39.es/ecma262" }
       ],
       "status": "Offline"
     }
