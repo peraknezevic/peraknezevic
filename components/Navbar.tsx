@@ -35,27 +35,9 @@ const social = [
   },
   {
     id: 3,
-    url: "https://linkedin.com/peraknezevic",
+    url: "https://linkedin.com/in/predrag-knezevic-062100247/",
     icon: <SiLinkedin />,
     titleTag: "Visit my Linkedin profile page",
-  },
-  {
-    id: 4,
-    url: "https://facebook.com/pera.knezevic",
-    icon: <SiFacebook />,
-    titleTag: "Visit my Facebook profile",
-  },
-  {
-    id: 5,
-    url: "https://instagram.com/peraknezevic",
-    icon: <SiInstagram />,
-    titleTag: "Visit my Instagram profile",
-  },
-  {
-    id: 6,
-    url: "https://last.fm/user/pera2109",
-    icon: <SiLastdotfm />,
-    titleTag: "Visit my Last.fm profile",
   },
 ]
 const Navbar = () => {
