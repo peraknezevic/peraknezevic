@@ -1,5 +1,8 @@
+"use client"
+
 import CldImage from "./CldImage"
 import Navbar from "./Navbar"
+import { motion } from "framer-motion"
 
 const Header = () => {
   return (

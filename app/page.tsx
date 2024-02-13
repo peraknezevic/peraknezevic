@@ -2,7 +2,6 @@ import Card from "@/components/Card"
 import { FiArrowRight } from "react-icons/fi"
 import Link from "next/link"
 import { Website } from "./types"
-// import { getProjects } from "@/utils/actions"
 import { getLocalData } from "@/utils/actions"
 
 const Home = async () => {
