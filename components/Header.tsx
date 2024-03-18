@@ -21,7 +21,7 @@ const Header = () => {
           <div className="mx-auto">
             <h1 className="text-4xl text-slate-950 dark:text-slate-50 font-bold mb-2">
               <span className="bg-clip-text text-transparent bg-gradient-to-r from-rose-400 via-fuchsia-500 to-indigo-500">
-                Pera Knezevic
+                Predrag Knezevic
               </span>
             </h1>
             <p className="text-2xl text-slate-900 dark:text-slate-100">
