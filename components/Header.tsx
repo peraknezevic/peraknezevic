@@ -2,7 +2,6 @@
 
 import CldImage from "./CldImage"
 import Navbar from "./Navbar"
-import { motion } from "framer-motion"
 
 const Header = () => {
   return (
@@ -12,7 +11,7 @@ const Header = () => {
           <div className="w-full h-auto rounded-full overflow-hidden mx-auto mb-12 shadow-2xl">
             <CldImage
               src="portfolio/peraknezevic-v2"
-              alt="Pera Knezevic"
+              alt="Predrag Knezevic"
               width="1000"
               height="1000"
               className="rounded-full  overflow-hidden"
