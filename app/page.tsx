@@ -1,6 +1,6 @@
-import Card from "@/components/WebCard"
 import { FiArrowRight } from "react-icons/fi"
 import Link from "next/link"
+import WebCard from "@/components/WebCard"
 import { Website } from "./types"
 import { getLocalData } from "@/utils/actions"
 
@@ -13,7 +13,7 @@ const Home = async () => {
       </h2>
       <div className="flex flex-col border-t-2 border-slate-900 mt-16 lg:mt-16 dark:border-slate-100">
         {websites.map((website: Website, i: number) => {
-          if (i < 3) return <Card website={website} key={website.id} />
+          if (i < 3) return <WebCard website={website} key={website.id} />
         })}
       </div>
       <Link

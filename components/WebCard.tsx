@@ -30,7 +30,6 @@ const WebCard = ({ website }: { website: Website }) => {
           {website.title}
         </h1>
         <p>{website.description}</p>
-        <p>Status: {website.status}</p>
         <p className="mt-4">
           <span>Tech used:</span>
         </p>
