@@ -1,5 +1,3 @@
-import { SiApple, SiIkea, SiLogitech } from "react-icons/si"
-
 import { getLocalData } from "@/utils/actions"
 
 const Uses = async () => {
