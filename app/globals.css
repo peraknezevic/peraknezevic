@@ -20,7 +20,8 @@
 }
 
 article,
-h2 {
+h2,
+h3 {
   animation: 0.5s ease-out 0s 1 slideInFromLeft;
 }
 

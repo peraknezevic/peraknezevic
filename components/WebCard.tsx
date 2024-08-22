@@ -19,10 +19,10 @@ const fadeInAnimationVariants = {
   }),
 }
 
-const Card = ({ website }: { website: Website }) => {
+const WebCard = ({ website }: { website: Website }) => {
   return (
     <article
-      className="w-full flex flex-col xl:flex-row gap-8 xl:gap-24 py-24 border-b-2 border-black dark:border-slate-100 justify-between items-center"
+      className="w-full flex flex-col xl:flex-row gap-8 xl:gap-24 py-24 border-b-2 border-black/50 last:border-none dark:border-slate-100/50 justify-between items-center"
       id={website.id}
     >
       <div className="flex flex-col gap-4 xl:w-1/2 pl-4">
@@ -84,4 +84,4 @@ const Card = ({ website }: { website: Website }) => {
     </article>
   )
 }
-export default Card
+export default WebCard

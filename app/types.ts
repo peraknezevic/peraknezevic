@@ -9,3 +9,12 @@ export type Website = {
   image: string
   stack: { title: string; url: string }[]
 }
+
+export type Book = {
+  id: string
+  title: string
+  author: string
+  publisher: string
+  year: number
+  image: string
+}

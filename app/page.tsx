@@ -1,4 +1,4 @@
-import Card from "@/components/Card"
+import Card from "@/components/WebCard"
 import { FiArrowRight } from "react-icons/fi"
 import Link from "next/link"
 import { Website } from "./types"

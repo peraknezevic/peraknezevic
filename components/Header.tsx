@@ -24,8 +24,8 @@ const Header = () => {
                 Predrag Knezevic
               </span>
             </h1>
-            <p className="text-2xl text-slate-900 dark:text-slate-100">
-              Web Developer
+            <p className="text-xl text-slate-900 dark:text-slate-100">
+              Web Designer and Developer
             </p>
           </div>
         </div>

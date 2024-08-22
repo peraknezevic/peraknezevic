@@ -4,7 +4,7 @@
       "id": "1",
       "title": "Marijana Čanak",
       "type": "Website",
-      "description": "Official website for Serbian author Marijana Čanak",
+      "description": "A website was designed for Book author Marijana Čanak using Figma and developed with Typescript and Next.js. The site features an admin area where the author can log in, publish, and update news, stories, and press materials.",
       "image": "/portfolio/marijanacanak.jpg",
       "url": "https://marijanacanak.com",
       "github": "https://github.com/peraknezevic/marijanacanak",
@@ -22,7 +22,8 @@
         { "id": 7, "title": "Prisma", "url": "https://prisma.io" },
         { "id": 8, "title": "MongoDB", "url": "https:/mongodb.com" },
         { "id": 9, "title": "axios", "url": "https://axios-http.com" },
-        { "id": 10, "title": "zod", "url": "https://zod.dev" }
+        { "id": 10, "title": "zod", "url": "https://zod.dev" },
+        { "id": 11, "title": "Figma", "url": "https://figma.com" }
       ],
       "status": "Online"
     },
@@ -30,7 +31,7 @@
       "id": "2",
       "title": "Houseplants",
       "type": "Website",
-      "description": "Online guide for houseplant genera, plant care, articles about plants etc.",
+      "description": "Houseplants.xyz is a personal project that began from my interest in growing and collecting plants, which started in 2018. Initially, I showcased my collection on Instagram (@houseplants.xyz). This evolved into the idea of building a website dedicated to featuring extensive articles, complete with images and detailed information on various species from my favorite plant genera. The original site was developed using WordPress and too many plugins. The current iteration has been redeveloped with TypeScript and Next.js. It also includes an admin dashboard for easy content management and updates.",
       "image": "/portfolio/houseplants.jpg",
       "url": "https://houseplants.xyz",
       "github": "https://github.com/peraknezevic/houseplants-v2",
@@ -49,7 +50,8 @@
         { "id": 8, "title": "Prisma", "url": "https://prisma.io" },
         { "id": 9, "title": "MongoDB", "url": "https:/mongodb.com" },
         { "id": 10, "title": "axios", "url": "https://axios-http.com" },
-        { "id": 11, "title": "zod", "url": "https://zod.dev" }
+        { "id": 11, "title": "zod", "url": "https://zod.dev" },
+        { "id": 12, "title": "Figma", "url": "https://figma.com" }
       ],
       "status": "Online"
     },
@@ -57,7 +59,7 @@
       "id": "3",
       "title": "Portfolio",
       "type": "Website",
-      "description": "My personal portfolio website",
+      "description": "It's the website you're at right now, just showcasing some of my recent projects.",
       "image": "/portfolio/portfolio.jpg",
       "url": "https://peraknezevic.com",
       "github": "https://github.com/peraknezevic/peraknezevic",
@@ -72,7 +74,8 @@
         { "id": 4, "title": "Next.js", "url": "https://nextjs.org" },
         { "id": 5, "title": "Tailwind CSS", "url": "https://tailwindcss.com" },
         { "id": 6, "title": "Framer Motion", "url": "https://cloudinary.com" },
-        { "id": 7, "title": "Cloudinary", "url": "https://framer.com/motion/" }
+        { "id": 7, "title": "Cloudinary", "url": "https://framer.com/motion/" },
+        { "id": 8, "title": "Figma", "url": "https://figma.com" }
       ],
       "status": "Online"
     },
@@ -80,15 +83,17 @@
       "id": "4",
       "title": "Bojan Krivokapić",
       "type": "Website",
-      "description": "Official website for Serbian author Bojan Krivokapić",
+      "description": "A website designed and developed for Book author Bojan Krivokapić. The concept was a more minimal looking website. I wrote a custom Wordpress theme for this project and optimized it for SEO.",
       "image": "/portfolio/bojankrivokapic.jpg",
       "url": "https://bojankrivokapic.com",
       "github": "https://github.com/peraknezevic/bojan-v2",
       "stack": [
         { "id": 1, "title": "Wordpress", "url": "https://wordpress.org" },
-        { "id": 2, "title": "HTML", "url": "https://w3.org/html" },
-        { "id": 3, "title": "CSS", "url": "https://w3.org/Style/CSS/" },
-        { "id": 4, "title": "Javascript", "url": "https://tc39.es/ecma262" }
+        { "id": 2, "title": "PHP", "url": "https://php.net" },
+        { "id": 3, "title": "HTML", "url": "https://w3.org/html" },
+        { "id": 4, "title": "CSS", "url": "https://w3.org/Style/CSS/" },
+        { "id": 5, "title": "Javascript", "url": "https://tc39.es/ecma262" },
+        { "id": 6, "title": "Figma", "url": "https://figma.com" }
       ],
       "status": "Online"
     },
@@ -96,14 +101,16 @@
       "id": "6",
       "title": "Akengen",
       "type": "Website",
-      "description": "School of wisdom website",
+      "description": "Multilingual WordPress theme developed for Mateja Tomšič",
       "image": "/portfolio/akengen.jpg",
       "url": "https://akengen.com",
       "stack": [
         { "id": 1, "title": "Wordpress", "url": "https://wordpress.org" },
-        { "id": 2, "title": "HTML", "url": "https://w3.org/html" },
-        { "id": 3, "title": "CSS", "url": "https://w3.org/Style/CSS/" },
-        { "id": 4, "title": "Javascript", "url": "https://tc39.es/ecma262" }
+        { "id": 2, "title": "PHP", "url": "https://php.net" },
+        { "id": 3, "title": "HTML", "url": "https://w3.org/html" },
+        { "id": 4, "title": "CSS", "url": "https://w3.org/Style/CSS/" },
+        { "id": 5, "title": "Javascript", "url": "https://tc39.es/ecma262" },
+        { "id": 6, "title": "Figma", "url": "https://figma.com" }
       ],
       "status": "Online"
     },
@@ -111,14 +118,16 @@
       "id": "5",
       "title": "Bojan Krivokapić",
       "type": "Website",
-      "description": "Official website for Serbian author Bojan Krivokapić",
+      "description": "The first version of Wordpress theme developed for Book author Bojan Krivokapić",
       "image": "/portfolio/bojankrivokapic-v1.jpg",
       "github": "https://github.com/peraknezevic/bojan-v1",
       "stack": [
         { "id": 1, "title": "Wordpress", "url": "https://wordpress.org" },
-        { "id": 2, "title": "HTML", "url": "https://w3.org/html" },
-        { "id": 3, "title": "CSS", "url": "https://w3.org/Style/CSS/" },
-        { "id": 4, "title": "Javascript", "url": "https://tc39.es/ecma262" }
+        { "id": 2, "title": "PHP", "url": "https://php.net" },
+        { "id": 3, "title": "HTML", "url": "https://w3.org/html" },
+        { "id": 4, "title": "CSS", "url": "https://w3.org/Style/CSS/" },
+        { "id": 5, "title": "Javascript", "url": "https://tc39.es/ecma262" },
+        { "id": 6, "title": "Figma", "url": "https://figma.com" }
       ],
       "status": "Offline"
     },
@@ -126,17 +135,44 @@
       "id": "6",
       "title": "all about Madonna",
       "type": "Website",
-      "description": "Madonna fansite",
+      "description": "I’ve always been a huge Madonna fan, and during my student days, I came up with the idea of creating a website that would cover everything anyone could ever want to know about her. What started as a basic HTML and CSS site on whatever free hosting I could find quickly grew into something much bigger. I began designing themes and experimenting with different CMSs — moving from CutePHP to WordPress, then to MovableType, and finally back to WordPress. I even added forums using InvisionBoard and PHPBB, along with a Coppermine Gallery for photos. In 2019, I decided to put the project on hold to focus on other interests.",
       "image": "/portfolio/allaboutmadonna.jpg",
       "url": "",
       "github": "",
       "stack": [
         { "id": 1, "title": "Wordpress", "url": "https://wordpress.org" },
-        { "id": 2, "title": "HTML", "url": "https://w3.org/html" },
-        { "id": 3, "title": "CSS", "url": "https://w3.org/Style/CSS/" },
-        { "id": 4, "title": "Javascript", "url": "https://tc39.es/ecma262" }
+        { "id": 2, "title": "PHP", "url": "https://php.net" },
+        { "id": 3, "title": "HTML", "url": "https://w3.org/html" },
+        { "id": 4, "title": "CSS", "url": "https://w3.org/Style/CSS/" },
+        { "id": 5, "title": "Javascript", "url": "https://tc39.es/ecma262" }
       ],
       "status": "Offline"
+    }
+  ],
+  "books": [
+    {
+      "id": "1",
+      "title": "Put od crvene cigle",
+      "author": "Marijana Čanak",
+      "publisher": "Bulevar books, Novi Sad",
+      "year": 2023,
+      "image": "/portfolio/books/put-od-crvene-cigle-bulevar-books.jpg"
+    },
+    {
+      "id": "2",
+      "title": "Pramatere",
+      "author": "Marijana Čanak",
+      "publisher": "Bulevar books, Novi Sad",
+      "year": 2023,
+      "image": "/portfolio/books/pramatere-bulevar-books.jpg"
+    },
+    {
+      "id": "3",
+      "title": "Put od crvene cigle",
+      "author": "Marijana Čanak",
+      "publisher": "Buybook, Sarajevo - Zagreb",
+      "year": 2023,
+      "image": "/portfolio/books/put-od-crvene-cigle-buybook.jpg"
     }
   ],
   "uses": {
@@ -156,7 +192,7 @@
       "chair": "Ikea Järvfjället"
     },
     "software": {
-      "os": "macOS Sanoma 14.4",
+      "os": "macOS 15.1",
       "codeEditor": "VS Code",
       "vscodeTheme": "Material Theme Darker",
       "plugins": [
@@ -178,7 +214,16 @@
         "Tailwind CSS IntelliSense",
         "Turbo Console Log"
       ],
-      "devTools": ["Figma", "Filezilla", "Hyper", "Local"],
+      "devTools": [
+        "Figma",
+        "Filezilla",
+        "Hyper",
+        "Local",
+        "MAMP",
+        "GitKraken",
+        "Docker",
+        "Postman"
+      ],
       "defaultBrowser": "Safari",
       "otherBrowsers": [
         "Google Chrome",
@@ -189,6 +234,7 @@
       ],
       "apps": [
         "Be Focused Pro",
+        "Slack",
         "Discord",
         "Duolingo",
         "Google Drive",
