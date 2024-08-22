@@ -4,7 +4,7 @@
       "id": "1",
       "title": "Marijana Čanak",
       "type": "Website",
-      "description": "A website was designed for Book author Marijana Čanak using Figma and developed with Typescript and Next.js. The site features an admin area where the author can log in, publish, and update news, stories, and press materials.",
+      "description": "A website was designed for author Marijana Čanak using Figma and developed with Typescript and Next.js. The site features an admin area where the author can log in, publish, and update news, stories, and press materials.",
       "image": "/portfolio/marijanacanak.jpg",
       "url": "https://marijanacanak.com",
       "github": "https://github.com/peraknezevic/marijanacanak",
@@ -87,7 +87,7 @@
       "id": "4",
       "title": "Bojan Krivokapić",
       "type": "Website",
-      "description": "A website designed and developed for Book author Bojan Krivokapić. The concept was a more minimal looking website. I wrote a custom Wordpress theme for this project and optimized it for SEO.",
+      "description": "A website designed and developed for author Bojan Krivokapić. The concept was a more minimal looking website. I wrote a custom Wordpress theme for this project and optimized it for SEO.",
       "image": "/portfolio/bojankrivokapic.jpg",
       "url": "https://bojankrivokapic.com",
       "github": "https://github.com/peraknezevic/bojan-v2",
@@ -102,7 +102,7 @@
       "status": "Online"
     },
     {
-      "id": "6",
+      "id": "5",
       "title": "Akengen",
       "type": "Website",
       "description": "Multilingual WordPress theme developed for Mateja Tomšič",
@@ -119,7 +119,7 @@
       "status": "Online"
     },
     {
-      "id": "5",
+      "id": "6",
       "title": "Bojan Krivokapić",
       "type": "Website",
       "description": "The first version of Wordpress theme developed for Book author Bojan Krivokapić",
@@ -136,7 +136,7 @@
       "status": "Offline"
     },
     {
-      "id": "6",
+      "id": "7",
       "title": "all about Madonna",
       "type": "Website",
       "description": "I’ve always been a huge Madonna fan, and during my student days, I came up with the idea of creating a website that would cover everything anyone could ever want to know about her. What started as a basic HTML and CSS site on whatever free hosting I could find quickly grew into something much bigger. I began designing themes and experimenting with different CMSs — moving from CutePHP to WordPress, then to MovableType, and finally back to WordPress. I even added forums using InvisionBoard and PHPBB, along with a Coppermine Gallery for photos. In 2019, I decided to put the project on hold to focus on other interests.",
