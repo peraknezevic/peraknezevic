@@ -31,7 +31,7 @@ const WebCard = ({ website }: { website: Website }) => {
         </h1>
         <p>{website.description}</p>
         <p className="mt-4">
-          <span>Tech used:</span>
+          <span>Stack:</span>
         </p>
         <ul className="flex flex-wrap gap-2 py-1">
           {website.stack.map((item, index) => (

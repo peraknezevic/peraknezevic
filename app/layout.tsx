@@ -28,7 +28,7 @@ export default function RootLayout({
       >
         <Providers>
           <Header />
-          <main className="bg-slate-200 dark:bg-slate-800 py-16 lg:py-32 px-8 lg:px-16 overflow-scroll w-full justify-center">
+          <main className="bg-slate-200 dark:bg-slate-800 py-12 xl:py-16 lg:py-32 px-8 lg:px-16 overflow-scroll w-full justify-center">
             {children}
             <Analytics />
           </main>

@@ -56,7 +56,7 @@ const Navbar = () => {
             </Link>
           </li>
         ))}
-        <li className="items-baseline ">
+        <li className="items-baseline p-1">
           <ThemeSwitch />
         </li>
       </ul>
