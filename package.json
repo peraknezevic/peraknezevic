@@ -14,7 +14,7 @@
     "braces": "^3.0.3",
     "framer-motion": "^11.3.29",
     "geist": "^1.2.1",
-    "next": "^14.2.7",
+    "next": "^14.2.12",
     "next-cloudinary": "^5.20.0",
     "next-themes": "^0.2.1",
     "react": "^18.3.1",
