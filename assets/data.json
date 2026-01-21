@@ -182,22 +182,21 @@
   "uses": {
     "hardware": {
       "laptop": "Macbook Air M1 16GB",
-      "desktop": "Mac mini Intel",
-      "monitor": "32 Inch AOC Q32V4",
-      "storage": "3TB WD My Passport",
-      "keyboard": "Logitech K780",
-      "mouse": "Logitech MX Master 2S",
-      "headphones": "Sony WH-CH510",
-      "earbuds": "Redmi Buds 3 Pro",
-      "speakers": "Logitech MX Sound",
-      "phone": "iPhone 12",
+      "monitors": "2x 27 Inch Asus PA278QV",
+      "keyboard": "Keychron K3 Max",
+      "mouse": "Logitech MX Master 4",
+      "headphones": "Nothing Headphone 1",
+      "earbuds": "Nothing Ear (a)",
+      "speakers": "Edifier M60",
+      "phone": "iPhone 17 Pro",
+      "ebookReader": "Kindle Paperwhite",
       "tablet": "iPad 7",
-      "desk": "Ikea Anfallare / Hilver",
-      "chair": "Ikea Järvfjället"
+      "desk": "Ikea TROTTEN",
+      "chair": "Merryfair WAU"
     },
     "software": {
-      "os": "macOS 15.1",
-      "codeEditor": "VS Code",
+      "os": "macOS 26",
+      "codeEditors": "Webstorm, VS Code",
       "vscodeTheme": "Material Theme Darker",
       "plugins": [
         "Better Comments",
@@ -218,6 +217,21 @@
         "Tailwind CSS IntelliSense",
         "Turbo Console Log"
       ],
+      "stack": [
+        "Typescript",
+        "Javascript",
+        "React",
+        "Next.js",
+        "Angular",
+        "Tailwind CSS",
+        "SCSS",
+        "CSS",
+        "HTML",
+        "MongoDB",
+        "axios",
+        "zod",
+        "Prisma"
+      ],
       "devTools": [
         "Figma",
         "Filezilla",
@@ -228,25 +242,25 @@
         "Docker",
         "Postman"
       ],
-      "defaultBrowser": "Safari",
+      "defaultBrowser": "Vivaldi",
       "otherBrowsers": [
+        "Safari",
         "Google Chrome",
         "Google Chrome Canary",
         "Firefox",
         "Safari Technology Preview"
       ],
       "apps": [
-        "Be Focused Pro",
+        "Commander One",
         "Slack",
         "Discord",
-        "Duolingo",
         "Google Drive",
         "Handbrake",
         "IINA",
         "Lulu",
         "Magnet",
         "Pixelmator Pro",
-        "Tidal",
+        "Apple Music",
         "XnViewMP"
       ]
     }
