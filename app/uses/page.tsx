@@ -12,8 +12,8 @@ const Uses = async () => {
           <h3 className="text-3xl font-bold">Hardware</h3>
           <ul className="p-4 flex flex-col gap-2 list-disc">
             <li>Laptop: {uses.hardware.laptop}</li>
-            <li>Desktop: {uses.hardware.desktop}</li>
             <li>Phone: {uses.hardware.phone}</li>
+            <li>Ebook Reader: {uses.hardware.ebookReader}</li>
             <li>Tablet: {uses.hardware.tablet}</li>
           </ul>
         </article>
@@ -22,8 +22,7 @@ const Uses = async () => {
           <ul className="p-4 flex flex-col gap-2 list-disc">
             <li>Desk: {uses.hardware.desk}</li>
             <li>Chair: {uses.hardware.chair}</li>
-            <li>Monitor: {uses.hardware.monitor}</li>
-            <li>Storage: {uses.hardware.storage}</li>
+            <li>Monitors: {uses.hardware.monitors}</li>
             <li>
               Keyboard:
               {uses.hardware.keyboard}
@@ -38,7 +37,7 @@ const Uses = async () => {
           <h3 className="text-3xl font-bold">Software</h3>
           <ul className="p-4 flex flex-col gap-2 list-disc">
             <li>OS: {uses.software.os}</li>
-            <li>Code Editor: {uses.software.codeEditor}</li>
+            <li>Code Editors: {uses.software.codeEditors}</li>
             <li>Current VS Code Theme: {uses.software.vscodeTheme}</li>
             <li>
               VS Code Plugins:{" "}
@@ -46,6 +45,15 @@ const Uses = async () => {
                 <span key={item}>
                   {item}
                   {i !== uses.software.plugins.length - 1 && ", "}
+                </span>
+              ))}
+            </li>
+            <li>
+              Stack:{" "}
+              {uses.software.stack.map((item: string, i: number) => (
+                  <span key={item}>
+                  {item}
+                    {i !== uses.software.stack.length - 1 && ", "}
                 </span>
               ))}
             </li>
