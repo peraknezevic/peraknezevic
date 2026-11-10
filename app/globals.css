@@ -19,12 +19,24 @@
   }
 }
 
-article,
-h2,
-h3 {
-  animation: 0.5s ease-out 0s 1 slideInFromLeft;
+@media (prefers-reduced-motion: no-preference) {
+  article,
+  main h1,
+  h2,
+  h3 {
+    animation: 0.5s ease-out 0s 1 slideInFromLeft;
+  }
+
+  .header-content {
+    animation: 0.5s ease-out 0s 1 slideInFromRight;
+  }
 }
 
-.header-content {
-  animation: 0.5s ease-out 0s 1 slideInFromRight;
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+  }
 }

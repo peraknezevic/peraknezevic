@@ -1,10 +1,8 @@
-// app/components/ThemeSwitch.tsx
 "use client"
 
 import { FiSun, FiMoon } from "react-icons/fi"
 import { useState, useEffect } from "react"
 import { useTheme } from "next-themes"
-import Image from "next/image"
 
 export default function ThemeSwitch() {
   const [mounted, setMounted] = useState(false)
@@ -12,24 +10,21 @@ export default function ThemeSwitch() {
 
   useEffect(() => setMounted(true), [])
 
-  if (!mounted)
-    return (
-      <Image
-        src="data:image/svg+xml;base64,PHN2ZyBzdHJva2U9IiNGRkZGRkYiIGZpbGw9IiNGRkZGRkYiIHN0cm9rZS13aWR0aD0iMCIgdmlld0JveD0iMCAwIDI0IDI0IiBoZWlnaHQ9IjIwMHB4IiB3aWR0aD0iMjAwcHgiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHJlY3Qgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIiB4PSIyIiB5PSIyIiBmaWxsPSJub25lIiBzdHJva2Utd2lkdGg9IjIiIHJ4PSIyIj48L3JlY3Q+PC9zdmc+Cg=="
-        width={24}
-        height={24}
-        sizes="24x24"
-        alt="Loading Light/Dark Toggle"
-        priority={false}
-        title="Loading Light/Dark Toggle"
-      />
-    )
+  // Reserve the button's space until the theme is known, so the layout doesn't shift.
+  if (!mounted) return <span className="inline-block h-7 w-7" aria-hidden="true" />
 
-  if (resolvedTheme === "dark") {
-    return <FiSun onClick={() => setTheme("light")} />
-  }
+  const isDark = resolvedTheme === "dark"
+  const label = isDark ? "Switch to light theme" : "Switch to dark theme"
 
-  if (resolvedTheme === "light") {
-    return <FiMoon onClick={() => setTheme("dark")} />
-  }
+  return (
+    <button
+      type="button"
+      onClick={() => setTheme(isDark ? "light" : "dark")}
+      aria-label={label}
+      title={label}
+      className="inline-flex h-7 w-7 items-center justify-center rounded"
+    >
+      {isDark ? <FiSun aria-hidden="true" /> : <FiMoon aria-hidden="true" />}
+    </button>
+  )
 }

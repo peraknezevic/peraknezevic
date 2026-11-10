@@ -11,7 +11,7 @@ const Header = () => {
           <div className="w-full h-auto rounded-full overflow-hidden mx-auto mb-8 shadow-2xl">
             <CldImage
               src="portfolio/peraknezevic-v2"
-              alt="Predrag Knezevic"
+              alt="Portrait of Predrag Knezevic"
               width="1000"
               height="1000"
               className="rounded-full  overflow-hidden"
@@ -19,11 +19,12 @@ const Header = () => {
             />
           </div>
           <div className="mx-auto">
-            <h1 className="text-4xl text-slate-950 dark:text-slate-50 font-bold mb-2 tracking-tight ">
-              <span className="bg-clip-text text-transparent bg-gradient-to-r from-rose-400 via-fuchsia-500 to-indigo-500">
+            {/* Site name, not a heading: each page has its own h1. */}
+            <p className="text-4xl font-bold mb-2 tracking-tight">
+              <span className="bg-clip-text text-transparent bg-gradient-to-r from-rose-700 via-fuchsia-700 to-indigo-700 dark:from-rose-400 dark:via-fuchsia-500 dark:to-indigo-500">
                 Predrag Knezevic
               </span>
-            </h1>
+            </p>
             <p className="text-xl text-slate-900 dark:text-slate-100">
               Web Designer and Developer
             </p>

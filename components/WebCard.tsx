@@ -19,21 +19,39 @@ const fadeInAnimationVariants = {
   }),
 }
 
-const WebCard = ({ website }: { website: Website }) => {
+const linkClass =
+  "bg-gradient-to-r from-rose-400 via-fuchsia-500 to-indigo-500 bg-[length:100%_3px] bg-no-repeat bg-bottom hover:bg-right hover:bg-[length:100%_12px] transition-all pb-2"
+
+const WebCard = ({
+  website,
+  headingLevel = "h3",
+}: {
+  website: Website
+  headingLevel?: "h2" | "h3"
+}) => {
+  const Heading = headingLevel
+
   return (
     <article
       className="w-full flex flex-col xl:flex-row gap-8 xl:gap-24 py-24 border-b-2 border-black/50 last:border-none dark:border-slate-100/50 justify-between items-center"
       id={website.id}
+      aria-labelledby={`website-${website.id}-title`}
     >
       <div className="flex flex-col gap-4 xl:w-1/2 pl-4">
-        <h1 className="text-3xl font-bold text-slate-900 dark:text-slate-100">
+        <Heading
+          id={`website-${website.id}-title`}
+          className="text-3xl font-bold text-slate-900 dark:text-slate-100"
+        >
           {website.title}
-        </h1>
+        </Heading>
         <p>{website.description}</p>
-        <p className="mt-4">
-          <span>Stack:</span>
+        <p className="mt-4" id={`website-${website.id}-stack`}>
+          Stack:
         </p>
-        <ul className="flex flex-wrap gap-2 py-1">
+        <ul
+          className="flex flex-wrap gap-2 py-1"
+          aria-labelledby={`website-${website.id}-stack`}
+        >
           {website.stack.map((item, index) => (
             <motion.li
               key={item.url}
@@ -53,29 +71,25 @@ const WebCard = ({ website }: { website: Website }) => {
 
         <p className="mt-8 flex gap-8">
           {website.url && (
-            <a
-              href={website.url}
-              className="bg-gradient-to-r from-rose-400 via-fuchsia-500 to-indigo-500 bg-[length:100%_3px] bg-no-repeat bg-bottom hover:bg-right hover:bg-[length:100%_12px] transition-all pb-2"
-              title={`Visit ${website.title} website`}
-            >
-              Visit the website <FiArrowRight className="inline" />
+            <a href={website.url} className={linkClass}>
+              Visit the website
+              <span className="sr-only"> of {website.title}</span>{" "}
+              <FiArrowRight className="inline" aria-hidden="true" />
             </a>
           )}
           {website.github && (
-            <a
-              href={website.github}
-              className="bg-gradient-to-r from-rose-400 via-fuchsia-500 to-indigo-500 bg-[length:100%_3px] bg-no-repeat bg-bottom hover:bg-right hover:bg-[length:100%_12px] transition-all pb-2"
-              title={`Visit ${website.title} Github Project page`}
-            >
-              Github Repo <FiArrowRight className="inline" />
+            <a href={website.github} className={linkClass}>
+              Github Repo
+              <span className="sr-only"> for {website.title}</span>{" "}
+              <FiArrowRight className="inline" aria-hidden="true" />
             </a>
           )}
         </p>
       </div>
-      <figure className="xl:w-1/2 h-full border-slate-950 dark:border-slate-100 border-4 rounded-xl overflow-hidden shadow-2xl xl:hover:scale-110 xl:transition xl:duration-500 cursor-pointer">
+      <figure className="xl:w-1/2 h-full border-slate-950 dark:border-slate-100 border-4 rounded-xl overflow-hidden shadow-2xl motion-safe:xl:hover:scale-110 motion-safe:xl:transition motion-safe:xl:duration-500">
         <CldImage
           src={website.image}
-          alt={website.title}
+          alt={`Screenshot of the ${website.title} website`}
           width="1000"
           height="1000"
         />
